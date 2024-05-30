@@ -1,0 +1,242 @@
+.header {
+    padding: 10px;
+    background-color: #e2b0e0;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.header-centro {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-derecho {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    width: 300px;
+    margin-left: 150px;
+    font-family: "Jersey 15", sans-serif;
+}
+
+.NavBar {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.NavBar li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.NavBar li:last-child {
+    margin-right: 0;
+}
+
+.NavBar li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.cart-icon {
+    width: 35px;
+}
+
+.cart-count {
+    position: absolute;
+    top: 22px;
+    right: 150px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 15px;
+    ;
+}
+
+.inpBuscador {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.logos-container {
+    background-color: #747070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.logo-item img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.logo-item p {
+    color: white;
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+
+.colorBody {
+    background-color: #646060;
+}
+
+.containerProducto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.cardProducto {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.productosFoto {
+    width: 300px;
+    height: 300px;
+}
+
+.nombreProducto {
+    font-size: 25px;
+    text-align: center;
+}
+
+.precioProductos {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerOferta {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 0 100px;
+}
+
+.product-image {
+    flex: 2;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-bottom: 75px;
+}
+
+.product-image img {
+    width: 95%;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.detalles-info {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border: 3px solid black;
+}
+
+.product-details {
+    flex: 3;
+}
+
+.product-name {
+    color: rgb(219, 20, 20);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.product-price-discount {
+    color: #67c01e;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.botonCalcular {
+    background-color: #8a95a1;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.footer {
+    background-color: #e2b0e0;
+}
+
+.logoFooter {
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+}
