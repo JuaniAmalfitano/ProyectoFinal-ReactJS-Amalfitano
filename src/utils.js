@@ -1,6 +1,5 @@
 // utils.js
 
-import lamparaVelez from "../public/Productos/Lamparas/lampara-velez.webp";
 
 export const mockItem = [{
   nombre: "Lámpara personalizada Vélez",
@@ -8,8 +7,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: {lamparaVelez},
-  descripcion: ""
+  imageUrl: "https://acdn.mitiendanube.com/stores/002/017/057/products/1851-d4bc0d48edc25d41bb16845082180576-1024-1024.webp",
 },
 {
   nombre: "Lámpara personalizada Racing",
@@ -18,7 +16,6 @@ export const mockItem = [{
   precioTransferencia: 27900,
   stock: 2,
   imageUrl: "../public/Productos/Lamparas/lampara-racing.webp",
-  descripcion: ""
 },
 {
   nombre: "Lámpara personalizada San lorenzo",
@@ -27,7 +24,6 @@ export const mockItem = [{
   precioTransferencia: 27900,
   stock: 7,
   imageUrl: "../public/Productos/Lamparas/lampara-sanLorenzo.webp",
-  descripcion: ""
 },
 {
   nombre: "Lámpara personalizada Huracan",
@@ -36,7 +32,6 @@ export const mockItem = [{
   precioTransferencia: 27900,
   stock: 54,
   imageUrl: "../public/Productos/Lamparas/lampara-huracan.webp",
-  descripcion: ""
 },
 {
   nombre: "Lámpara personalizada Copa Del Mundo",
@@ -45,7 +40,6 @@ export const mockItem = [{
   precioTransferencia: 27900,
   stock: 10,
   imageUrl: "../public/Productos/Lamparas/lampara-copaDelMundo.webp",
-  descripcion: ""
 },
 {
   nombre: "Lámpara personalizada Lanus",
@@ -54,7 +48,6 @@ export const mockItem = [{
   precioTransferencia: 27900,
   stock: 3,
   imageUrl: "../public/Productos/Lamparas/lampara-lanus.webp",
-  descripcion: ""
 },
 {
   nombre: "Lámpara personalizada Boca",
