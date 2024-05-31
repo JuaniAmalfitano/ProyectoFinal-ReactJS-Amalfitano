@@ -90,8 +90,8 @@ const ItemDetail = () => {
             <div className="MediosDePago mt-3">
               <h5>Medios de pago</h5>
               <img src={mastercard} alt="mastercard" />
-              <img src={mercadoPago} alt="mercadoPago" />
-              <img src={pagoFacil} alt="pagoFacil" />
+              <img src={mercadopago} alt="mercadoPago" />
+              <img src={pagofacil} alt="pagoFacil" />
               <img src={rapipago} alt="rapiPago" />
               <img src={tarjetanaranja} alt="tarjeta naranja" />
               <img src={visa} alt="visa" />
