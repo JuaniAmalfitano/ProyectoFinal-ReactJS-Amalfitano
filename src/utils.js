@@ -7,7 +7,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "https://acdn.mitiendanube.com/stores/002/017/057/products/1851-d4bc0d48edc25d41bb16845082180576-1024-1024.webp",
+  imageUrl: "../public/Productos/Lamparas/lampara-velez.webp"
 },
 {
   nombre: "Lámpara personalizada Racing",
@@ -15,7 +15,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 2,
-  imageUrl: "../public/Productos/Lamparas/lampara-racing.webp",
+  imageUrl: "../public/Productos/Lamparas/lampara-racing.webp"
 },
 {
   nombre: "Lámpara personalizada San lorenzo",
@@ -23,7 +23,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "../public/Productos/Lamparas/lampara-sanLorenzo.webp",
+  imageUrl: "../public/Productos/Lamparas/lampara-sanLorenzo.webp"
 },
 {
   nombre: "Lámpara personalizada Huracan",
@@ -47,7 +47,8 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 3,
-  imageUrl: "../public/Productos/Lamparas/lampara-lanus.webp",
+  imageUrl: "../public/Productos/Lamparas/lampara-lanus.webp"
+
 },
 {
   nombre: "Lámpara personalizada Boca",
