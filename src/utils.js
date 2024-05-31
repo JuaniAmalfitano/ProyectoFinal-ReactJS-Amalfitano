@@ -1,12 +1,14 @@
 // utils.js
 
+import lamparaVelez from "../public/Productos/Lamparas/lampara-velez.webp";
+
 export const mockItem = [{
   nombre: "Lámpara personalizada Vélez",
   categoria: "Lamparas",
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "/Productos/Lamparas/lampara-velez.webp",
+  imageUrl: {lamparaVelez},
   descripcion: ""
 },
 {
