@@ -1,5 +1,12 @@
 //ItemDetail.jsx
 
+import mastercard from "../public/MediosDePago/mastercard@2x.png";
+import mercadopago from "../public/MediosDePago/mercadopago@2x.png";
+import pagofacil from "../public/MediosDePago/pagofacil@2x.png";
+import rapipago from "../public/MediosDePago/rapipago@2x.png";
+import tarjetanaranja from "../public/MediosDePago/tarjeta-naranja@2x.png";
+import visa from "../public/MediosDePago/visa@2x.png";
+
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import './EstiloNavBar.css';
@@ -82,12 +89,12 @@ const ItemDetail = () => {
             <NavLink to="/Carrito" className="btn buy-button bg-primary">Comprar</NavLink>
             <div className="MediosDePago mt-3">
               <h5>Medios de pago</h5>
-              <img src="../public/MediosDePago/mastercard@2x.png" alt="mastercard" />
-              <img src="../public/MediosDePago/mercadopago@2x.png" alt="mercadoPago" />
-              <img src="../public/MediosDePago/pagofacil@2x.png" alt="pagoFacil" />
-              <img src="../public/MediosDePago/rapipago@2x.png" alt="rapiPago" />
-              <img src="../public/MediosDePago/tarjeta-naranja@2x.png" alt="tarjeta naranja" />
-              <img src="../public/MediosDePago/visa@2x.png" alt="visa" />
+              <img src={mastercard} alt="mastercard" />
+              <img src={mercadoPago} alt="mercadoPago" />
+              <img src={pagoFacil} alt="pagoFacil" />
+              <img src={rapipago} alt="rapiPago" />
+              <img src={tarjetanaranja} alt="tarjeta naranja" />
+              <img src={visa} alt="visa" />
             </div>
             <img src="public\Logos\transporte.png" alt="" /><span className='ms-2'>Medios de envio</span>
             <div>

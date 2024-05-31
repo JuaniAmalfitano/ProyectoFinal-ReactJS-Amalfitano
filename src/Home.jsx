@@ -2,7 +2,7 @@
 import BannerInfo from "./BannerInfo";
 import ItemDetailContainer from "./ItemDetailContainer";
 
-import carrusel from "../public/carrusel-main.png";
+import carrusel from "../public/carrusel-main.jpg";
 
 const Home = () => {
 
