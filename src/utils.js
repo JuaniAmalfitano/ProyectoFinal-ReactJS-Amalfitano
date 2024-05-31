@@ -6,7 +6,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "../public/Productos/Lamparas/lampara-velez.webp",
+  imageUrl: "/Productos/Lamparas/lampara-velez.webp",
   descripcion: ""
 },
 {
