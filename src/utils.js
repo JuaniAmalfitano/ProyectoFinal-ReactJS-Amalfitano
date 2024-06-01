@@ -6,7 +6,7 @@ export const mockItem = [{
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "https://i.postimg.cc/SKHTTQpB/lampara-velez.webp"
+  imageUrl: "https://postimg.cc/06d0rsjn"
 },
 {
   nombre: "Lámpara personalizada Racing",
