@@ -1,13 +1,12 @@
 // utils.js
 
-
 export const mockItem = [{
   nombre: "Lámpara personalizada Vélez",
   categoria: "Lamparas",
   precio: "31000",
   precioTransferencia: 27900,
   stock: 7,
-  imageUrl: "../public/Productos/Lamparas/lampara-velez.webp"
+  imageUrl: "https://i.postimg.cc/SKHTTQpB/lampara-velez.webp"
 },
 {
   nombre: "Lámpara personalizada Racing",
