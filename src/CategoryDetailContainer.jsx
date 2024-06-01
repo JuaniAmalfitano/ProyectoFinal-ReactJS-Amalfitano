@@ -50,7 +50,7 @@ const CategoryDetailContainer = () => {
                                     Sin stock
                                 </div>
                             )}
-                            <NavLink to={`/productos/${item.id}`} className="mb-5 btn btn-primary">Ver detalle del producto</NavLink>
+                            <NavLink to={`/productos/${item.id}`} className="mb-3 btn btn-primary">Ver detalle del producto</NavLink>
                         </div>
                     ))
                 ) : (
